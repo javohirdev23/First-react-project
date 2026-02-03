@@ -1,0 +1,42 @@
+.fotter-cont {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background-color: #232127;
+}
+.fotter-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 72px;
+}
+.fotter-cont img {
+  color: white;
+}
+.links {
+  padding-left: 261px;
+  padding-right: 101px;
+  display: flex;
+  color: white;
+  list-style: none;
+  gap: 100px;
+}
+.links li {
+  list-style: none;
+}
+
+.icons {
+  display: flex;
+  gap: 24px;
+}
+.links ul span {
+  color: #bfbfbf;
+  padding-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

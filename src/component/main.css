@@ -1,0 +1,131 @@
+.main-section {
+  padding-top: 50px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #9e9aa8;
+}
+.info-top h1 {
+  color: #34313d;
+  font-weight: bold;
+  font-size: 36px;
+}
+.info-top span {
+  padding-top: 5px;
+  padding-left: 40px;
+}
+.cards-con {
+  position: relative;
+  display: flex;
+}
+.cards {
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+.cards span {
+  z-index: -1;
+  width: 1110px;
+  display: flex;
+
+  align-items: center;
+  height: 14px;
+  background: #2bd0d0;
+  position: absolute;
+  top: 200px;
+}
+.firstcard {
+  width: 350px;
+  background: rgb(239, 236, 236);
+  border-radius: 6px;
+  margin-top: 56px;
+  padding-left: 32px;
+  padding-top: 77px;
+  padding-bottom: 41px;
+  padding-left: 32px;
+}
+.firstcard h2 {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  color: #34313d;
+}
+.firstcard p {
+  color: #9e9aa8;
+  letter-spacing: 0.2px;
+}
+.firstcard button {
+  bottom: 200px;
+  position: absolute;
+  padding: 24px;
+  border-radius: 100%;
+  border: none;
+  background: #3a3054;
+}
+.secondcard {
+  top: 44px;
+  position: relative;
+  width: 350px;
+  background: rgb(239, 236, 236);
+  border-radius: 6px;
+  margin-top: 56px;
+  padding-left: 32px;
+  padding-top: 77px;
+  padding-bottom: 41px;
+  padding-left: 32px;
+}
+.secondcard h2 {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  color: #34313d;
+}
+.secondcard p {
+  color: #9e9aa8;
+  letter-spacing: 0.2px;
+}
+.secondcard button {
+  bottom: 200px;
+  position: absolute;
+  padding: 24px;
+  border-radius: 100%;
+  border: none;
+  background: #3a3054;
+}
+.thirdcard {
+  top: 88px;
+  position: relative;
+  width: 350px;
+  background: rgb(239, 236, 236);
+  border-radius: 6px;
+  margin-top: 56px;
+  padding-left: 32px;
+  padding-bottom: 41px;
+  padding-left: 32px;
+}
+.thirdcard h2 {
+  padding-top: 90px;
+  padding-bottom: 12px;
+  color: #34313d;
+}
+.thirdcard p {
+  color: #9e9aa8;
+  letter-spacing: 0.2px;
+}
+
+.thirdbtn {
+  bottom: 200px;
+  position: absolute;
+  padding: 24px;
+  border-radius: 100%;
+  border: none;
+  background: #3a3054;
+}
