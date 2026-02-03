@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "./component/Header";
 
-import "./App.css";
-import Hero from "./component/hero";
+import Hero from "./component/Hero";
 import Main from "./component/Main";
 import Cta from "./component/Cta";
 import Footer from "./component/Footer";
@@ -13,7 +12,7 @@ export default function App() {
       <Hero />
       <Main />
       <Cta />
-      <Footer/>
+      <Footer />
     </>
   );
 }
