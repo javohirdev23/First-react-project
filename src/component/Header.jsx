@@ -7,11 +7,17 @@ export default function Header() {
       <nav>
         <img src="./ShortlyLogo.svg" alt="shortly logo" />
         <ul>
-          <li>Features</li>
+          <a href="#">
+            <li>Features</li>
+          </a>
 
-          <li>Pricing</li>
+          <a href="#">
+            <li>Pricing</li>
+          </a>
 
-          <li>Resources</li>
+          <a href="#">
+            <li>Resources</li>
+          </a>
         </ul>
 
         <div>
